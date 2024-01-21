@@ -8,4 +8,4 @@ def search_api(query, pages =int(RESULT_COUNT/10)):
     query we want 2 pages of results"""
     results = []
     for i in range(0,pages):
-        start = i * 10 + i #rank the results from one through 20
+        start = i * 10 + i #rank the results from 1 through 20
